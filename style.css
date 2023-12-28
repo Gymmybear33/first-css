@@ -1,7 +1,27 @@
+body {
+    background-image: url(background-image.jpg);
+    background-size: cover;
+}
+
 h2 {
     color: red;
+    text-align: center;
+    border-bottom: 5px solid peru;
+    border-top: 5px solid peru;
+    cursor: help;
+    
 }
 
 p {
-    color: blue;
+    color: blueviolet;
+}
+
+a, li {
+    color: white;
+    
+}
+
+li {
+    list-style: none;
+    display: inline-block;
 }
