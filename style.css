@@ -1,19 +1,27 @@
+* {
+    text-align: right;
+}
+
 body {
     background-image: url(background-image.jpg);
     background-size: cover;
-}
-
-h2 {
-    color: red;
-    text-align: center;
-    border-bottom: 5px solid peru;
-    border-top: 5px solid peru;
-    cursor: help;
+    background: grey; /*This replaces the image because cascade*/
     
 }
 
+h2 {
+    color: white;
+    text-align: center;
+    border-bottom: 5px solid darkgreen;
+    border-top: 5px solid darkgreen;
+    cursor: pointer;
+    
+}
+
+
 p {
     color: blueviolet;
+    text-align: center;
 }
 
 a, li {
@@ -24,4 +32,60 @@ a, li {
 li {
     list-style: none;
     display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed black;
+    color: brown;
+}
+
+.active {
+    
+    border: 5px dashed black;
+}
+
+#div1 {
+    background: white;
+}
+
+h2 p {
+    color: white;
+}
+
+div > p {
+    color: yellow;
+}
+
+h3 {
+    color: yellow;
+}
+
+h3:hover {
+    color: white;
+    text-align: center;
+}
+
+.about-h2 {
+    font-family: 'Sacramento', cursive;
+}
+
+.about-p {
+    color: white;
+    text-decoration: underline;
+    font-size: 140%;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px;
+}
+
+img {
+    width: 500px;
+    height: 600px;
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
 }
